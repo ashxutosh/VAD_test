@@ -10,11 +10,9 @@ from logic import (
     get_emotion_percentages,
 )
 
-st.title("🧊 PAD Space - Single Slice Inspector")
-st.page_link("pages/logic.py", label="📘 View PAD Logic", icon="📘", width="content")
-st.markdown("""
-- **Single Slice View:** Ek baar mein sirf ek selected slice ($D$, $V$, ya $A$) display hogi.
-""")
+st.title("🧊 VAD Space - Single Slice Inspector")
+st.page_link("pages/logic.py", label="View VAD Logic", icon="📘", width="content")
+
 
 # Sidebar Controls
 st.sidebar.header("⚙️ View Options & Inputs")
